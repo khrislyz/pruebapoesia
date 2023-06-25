@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+.container {
+  display: flex;
+}
+
+#countdown {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+/* Agrega aquí tus estilos CSS existentes */
+body {
+  background-color: gray;
+}
+
+#text {
+  font-family: 'Anonymous Pro', cursive;
+  font-size: 24px;
+  color: rgba(255, 255, 0, 0.5); /* Amarillo transparente */
+  position: relative;
+  top: 50px;
+  left: 300px;
+}
+
+@media (max-width: 600px) {
+  #text {
+    font-size: 18px;
+    left: 20px;
+  }
+}
+.verse {
+  margin-bottom: 10px;
+}
